@@ -28,4 +28,4 @@ for i in $(seq 1 120); do
 done
 
 # Start RunPod worker (blocking)
-exec python3 -u /app/handler.py
+exec python3 -u handler.py
